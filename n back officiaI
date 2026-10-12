@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web Page</title>
+<!-- Tailwind CSS for modern styling -->
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans min-h-screen flex flex-col justify-between">
+<!-- Header Section -->
+<header class="bg-white shadow-sm">
+<div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
+<h1 class="text-xl font-bold text-indigo-600">Web Page</h1>
+<nav>
+<a href="#" class="text-sm font-medium text-slate-600 hover:text-indigo-600 transition">ホーム</a>
+</nav>
+</div>
+</header>
+<!-- Main Content -->
+<main class="max-w-4xl mx-auto px-6 py-12 flex-grow w-full">
+<article class="bg-white rounded-2xl shadow-sm p-8 md:p-12 border border-slate-100">
+<div class="prose max-w-none">
+<h2 class="text-2xl font-bold text-slate-900 mb-4">ようこそ</h2>
+<p class="text-slate-600 leading-relaxed mb-6">
+ご指定いただいた内容をもとにHTMLファイルを生成しました。必要に応じてテキストやデザインを自由にカスタマイズしてください。
+</p>
+<div class="p-4 bg-indigo-50 border-l-4 border-indigo-500 rounded-r-lg text-indigo-900 text-sm">
+<p class="font-semibold">ヒント:</p>
+<p>このファイルはTailwind CSSを使用しているため、クラス名を変更するだけで簡単にデザインを変更できます。</p>
+</div>
+</div>
+</article>
+</main>
+<!-- Footer Section -->
+<footer class="bg-white border-t border-slate-200 mt-12">
+<div class="max-w-4xl mx-auto px-6 py-6 text-center text-sm text-slate-500">
+© 2026 Web Page. All rights reserved.
+</div>
+</footer>
+</body>
+</html>
